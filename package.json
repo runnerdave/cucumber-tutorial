@@ -1,0 +1,22 @@
+{
+  "name": "site-point-tutorial",
+  "version": "1.0.0",
+  "description": "sitepoint tutorial on cucumber js https://www.sitepoint.com/bdd-javascript-cucumber-gherkin/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cucumber": "./node_modules/.bin/cucumber-js ./myFeatures -r ./mySteps",
+    "cucumber-help": "./node_modules/.bin/cucumber.js --help"
+  },
+  "keywords": [
+    "cucumber",
+    "gherkin",
+    "javascript",
+    "bdd"
+  ],
+  "author": "David Jimenez",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^4.0.0"
+  }
+}
